@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登录页面</title>
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <script src="../js/vue.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <style href="../css/bootstrap.min.css"></style>
+    <link rel="stylesheet" type="text/css" href="../css/login.css" />
+</head>
+<body>
+<div id="login">
+    <div id="login_head"><h1>登录</h1></div>
+    <p><input id="username" type="text"  name="userid" placeholder="帐号" /></p>
+    <p><input id="pwd" type="password" name="password" placeholder="密码" /></p>
+    <p><select id="select_role" name="role">
+        <option value="2">用户</option>
+        <option value="1">员工</option>
+        <option value="0">管理员</option>
+    </select>
+    <p> <input type="button" id="submit" value="登录" onclick="checkLogin()"/></p>
+</div>
+</body>
+</html>

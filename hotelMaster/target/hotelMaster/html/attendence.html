@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>员工考勤管理</title>
+	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="../js/jquery-3.1.0.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/manger.css">
+</head>
+<body>
+<div class="top"><p>公司人事管理系统</p></div>
+<div class="main">
+<div class="left">
+	<div class="left-top">
+		<div class="head-img"><img src="img/1.jpg"></div>	
+		<div class="welcom">
+			<br>
+			&nbsp;&nbsp;&nbsp;您好,管理员<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="">【退出】</a>
+		</div>
+	</div>
+
+	<div class="left-main">
+		<ul>
+			<li><a href="manager.html">新增部门/管理员</a></li>
+			<li><a href="pay.html">员工工资管理</a></li>
+			<li><a href="#">员工考勤管理</a></li>
+			<li><a href="transfer.html">员工人事变动管理</a></li>
+			<li><a href="">系统安全管理</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="right">
+	<div class="right-top"></div>
+	<div class="right-main">
+		
+
+<!-- 表格 -->
+<ul id="myTab" class="nav nav-tabs">
+	<li class="active">
+		<a href="#home" data-toggle="tab">考勤信息查询</a>
+	</li>
+	<li><a href="#freeroom" data-toggle="tab">迟到</a></li>
+	<li><a href="#room" data-toggle="tab">早退</a></li>
+	<li><a href="#retire" data-toggle="tab">事假</a></li>
+</ul>
+<div id="myTabContent" class="tab-content">
+	<div class="tab-pane fade in active" id="home">
+		<!-- 表格 -->
+		<form action="" method="post">
+		<table class="table table-bordered table-width">
+			<caption><span id="time">员工考勤基本信息：</span></caption>
+			<thead>
+				<tr>
+					<th>工号</th>
+					<th>姓名</th>
+					<th>部门</th>
+					<th>签到</th>
+					<th>签退</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input type="text" name="no"></td>
+					<td><input type="text" name="name"></td>
+					<td><input type="text" name="deptName"></td>
+					<td><input type="text" name="begin"></td>
+					<td><input type="text" name="end"></td>
+				</tr>	
+			</tbody>
+		</table>
+		</form>
+	</div>
+	<div class="tab-pane fade" id="freeroom"><!-- 迟到 -->
+			<div>
+				<ul id="myTab2" class="nav nav-tabs">
+					<li class="active">
+						<a href="#today" data-toggle="tab">今天</a>
+					</li>
+					<li><a href="#month" data-toggle="tab">近一月</a></li>
+				</ul>
+			<div id="myTabContent2" class="tab-content">
+				<div class="tab-pane fade" id="today"><!-- 新增嵌套 -->
+				<!-- 表格 -->
+					<form action="" method="post">
+						<table class="table table-bordered table-width">
+							<thead>
+								<tr>
+									<th>工号</th>
+									<th>姓名</th>
+									<th>部门</th>
+									<th>签到时间</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</div>
+
+	            <div class="tab-pane fade" id="month">
+				<!-- 表格 -->
+					<form action="" method="post">
+					<table class="table table-bordered table-width">
+						<thead>
+							<tr>
+								<th>工号</th>
+								<th>姓名</th>
+								<th>部门</th>
+								<th>签到时间</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+					</form>
+				</div>
+			</div>
+	</div><!-- 迟到结束 -->
+	
+	
+	<div class="tab-pane fade" id="room">
+		<!-- 表格 -->
+			<div>
+				<ul id="myTab3" class="nav nav-tabs">
+					<li class="active">
+						<a href="#to" data-toggle="tab">今天</a>
+					</li>
+					<li><a href="#mo" data-toggle="tab">近一月</a></li>
+				</ul>
+			<div id="myTabContent3" class="tab-content">
+				<div class="tab-pane fade in active" id="to"><!-- 新增嵌套 -->
+				<!-- 表格 -->
+					<form action="" method="post">
+						<table class="table table-bordered table-width">
+							<thead>
+								<tr>
+									<th>工号</th>
+									<th>姓名</th>
+									<th>部门</th>
+									<th>签退时间</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</form>
+				</div>
+
+	            <div class="tab-pane fade" id="mo">
+				<!-- 表格 -->
+					<form action="" method="post">
+					<table class="table table-bordered table-width">
+						<thead>
+							<tr>
+								<th>工号</th>
+								<th>姓名</th>
+								<th>部门</th>
+								<th>签退时间</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div><!-- 早退结束 -->
+
+	<div class="tab-pane fade" id="retire">
+		<!-- 表格 -->
+		<form action="" method="post">
+		<table class="table table-bordered table-width">
+			
+		</table>
+		</form>
+	</div>
+
+	</div> 
+</div>
+
+
+
+	</div>
+</div>
+
+
+
+
+</div>
+</body>
+</html>

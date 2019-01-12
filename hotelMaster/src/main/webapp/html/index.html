@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>首页</title>
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<script src="../js/jquery-3.1.0.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+<body>
+	<!-- 顶部导航栏 -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">HotelMaster</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active">
+        	<a href="#">主页</a>
+        </li>
+        <li><a href="#">页面 2</a></li>
+        <li><a href="#">页面 3</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- 表格 -->
+<ul id="myTab" class="nav nav-tabs">
+	<li class="active">
+		<a href="#home" data-toggle="tab">
+			 房间<span class="badge pull-right">3</span>
+		</a>
+	</li>
+	<li><a href="#ios" data-toggle="tab">空闲客房</a></li>
+	<li class="dropdown">
+		<a href="#" id="myTabDrop1" class="dropdown-toggle" 
+		   data-toggle="dropdown">预订客房
+			<b class="caret"></b>
+		</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+			<li><a href="#jmeter" tabindex="-1" data-toggle="tab">预订</a></li>
+			<li><a href="#ejb" tabindex="-1" data-toggle="tab">入住</a></li>
+		</ul>
+	</li>
+</ul>
+<div id="myTabContent" class="tab-content">
+	<div class="tab-pane fade in active" id="home">
+		<!-- 表格 -->
+		<table class="table table-bordered table-width">
+			<caption><span id="time">你好</span></caption>
+			<thead>
+				<tr>
+					<th>名称</th>
+					<th>状态</th>
+					<th>入住人</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Tanmay</td>
+					<td>Bangalore</td>
+					<td>560001</td>
+				</tr>
+				<tr>
+					<td>Sachin</td>
+					<td>Mumbai</td>
+					<td>400003</td>
+				</tr>
+				<tr>
+					<td>Uma</td>
+					<td>Pune</td>
+					<td>411027</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="tab-pane fade" id="ios">
+		<p>iOS 是一个由苹果公司开发和发布的手机操作系统。最初是于 2007 年首次发布 iPhone、iPod Touch 和 Apple 
+			TV。iOS 派生自 OS X，它们共享 Darwin 基础。OS X 操作系统是用在苹果电脑上，iOS 是苹果的移动版本。</p>
+	</div>
+	<div class="tab-pane fade" id="jmeter">
+		<p>jMeter 是一款开源的测试软件。它是 100% 纯 Java 应用程序，用于负载和性能测试。</p>
+	</div>
+	<div class="tab-pane fade" id="ejb">
+		<p>Enterprise Java Beans（EJB）是一个创建高度可扩展性和强大企业级应用程序的开发架构，部署在兼容应用程序服务器（比如 JBOSS、Web Logic 等）的 J2EE 上。
+		</p>
+	</div>
+</div>
+
+<!-- 底部内容 -->
+<!-- <div class="jumbotron text-center" style="margin-bottom:0">
+  <p>版权所有</p>
+</div> -->
+</body>
+	<script type="text/javascript" src="../js/time.js"></script>
+</html>
