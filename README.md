@@ -12,7 +12,7 @@ springmvc+maven+mysql
 
 ##### 登录界面
 
-![image](img-folder\登录界面.png)
+![image](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/img-folder/登录界面.png)
 
 
 
@@ -20,19 +20,19 @@ springmvc+maven+mysql
 
 1.查看房间，操作房间状态
 
-![](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/查看房间.png)
+![image](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/查看房间.png)
 
 2.添加物品
 
-![](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/添加物品.png)
+![image](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/添加物品.png)
 
 3.添加用户
 
-![](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/添加客户.png)
+![image](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/添加客户.png)
 
 4.添加员工
 
-![](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/添加员工.png)
+![image](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/添加员工.png)
 
 
 
@@ -42,13 +42,13 @@ springmvc+maven+mysql
 
 1.预订房间
 
-![](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/用户预定房间.jpg)
+![image](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/用户预定房间.jpg)
 
 
 
 2.归还客房物品
 
-![](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/归还物品.png)
+![image](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/归还物品.png)
 
 
 
