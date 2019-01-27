@@ -12,7 +12,7 @@ springmvc+maven+mysql
 
 ##### 登录界面
 
-![image](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/img-folder/登录界面.png)
+![image](https://github.com/Fuhaixu/hotelMaster/edit/master/img-folder/登录界面.png)
 
 
 
