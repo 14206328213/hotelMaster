@@ -7,10 +7,12 @@
   <welcome-file-list>
     <welcome-file>/jsp/show.jsp</welcome-file>
   </welcome-file-list>
-  <!--配置DispatherServlet-->
+
+  <!--配置DispatherServlet，前端控制器-->
   <servlet>
     <servlet-name>dispatcher</servlet-name>
     <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+
     <!--指定SpringMVC的配置文件-->
     <init-param>
       <param-name>contextConfigLocation</param-name>
@@ -33,6 +35,8 @@
     <error-code>500</error-code>
     <location>/errorpage/500.html</location>
   </error-page>
+
+    <!--字符过滤器-->
   <filter>
     <filter-name>springUtf8Encoding</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>

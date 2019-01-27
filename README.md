@@ -8,49 +8,71 @@ springmvc+maven+mysql
 
 
 
-### 版本说明:
-
-mysql 5.7.23
-
-springmvc 4.2.2RELEASE
-
-maven1.7
-
-
-
 ### 页面展示
+
+##### 登录界面
+
+![](C:\Users\FHX\Desktop\数据课课设\登录界面.png)
+
+
 
 ##### 管理员端
 
-1.添加物品
+1.查看房间，操作房间状态
 
-![img](file:///C:\Users\FHX\AppData\Roaming\Tencent\Users\1254110687\QQ\WinTemp\RichOle\FXIM1Y{[1L{{5EG[GA8GT~R.png)
+![](C:\Users\FHX\Desktop\数据课课设\查看房间.png)
 
-2.添加用户
+2.添加物品
 
-![img](file:///C:\Users\FHX\AppData\Roaming\Tencent\Users\1254110687\QQ\WinTemp\RichOle\)7V3]1QN`3}%QL02}7F3{H3.png)
+![](C:\Users\FHX\Desktop\数据课课设\添加物品.png)
 
-4.查看房间，操作房间状态
+3.添加用户
 
-![img](file:///C:\Users\FHX\AppData\Roaming\Tencent\Users\1254110687\QQ\WinTemp\RichOle\3I5572~2GEL(AG~1XYRIKNB.png)
+![](C:\Users\FHX\Desktop\数据课课设\添加客户.png)
+
+4.添加员工
+
+![](C:\Users\FHX\Desktop\数据课课设\添加员工.png)
 
 
 
-客户端
+
+
+##### 客户端
 
 1.预订房间
 
-![img](file:///C:\Users\FHX\AppData\Roaming\Tencent\Users\1254110687\QQ\WinTemp\RichOle\7A`_9%2YLHH])C}2WFLA$}M.png)
+![](C:\Users\FHX\Desktop\数据课课设\Inked用户预定房间_LI.jpg)
 
 
 
+2.归还客房物品
+
+![](C:\Users\FHX\Desktop\数据课课设\归还物品.png)
 
 
 
+### 版本说明:
+
+mysql 8.0.12
+
+springmvc 4.2.2.RELEASE
+
+maven 1.7
+
+tomcat 8.0
+
+前端布局:
+
+bootstrap 3
 
 
 
+### 希望自己的改进
 
+把mybatis结合到这个项目中来，不用jdbcTemplate
+
+继续优化项目
 
 
 

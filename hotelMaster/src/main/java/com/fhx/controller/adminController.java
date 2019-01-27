@@ -19,6 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.util.List;
 
+
 @Controller
 public class adminController {
     @Autowired
@@ -67,10 +68,7 @@ public class adminController {
         modelAndView.getModel().put("freenum",num);
     }
 
-//    <td><input name="iname"></td>
-//                <td><input name="inum"></td>
-//                <td><input name="icost"></td>
-//                <td><input name="unit">/td>
+
     @RequestMapping("/additem")
     public ModelAndView addItem(ModelAndView modelAndView,HttpServletRequest request) throws Exception{
         request.setCharacterEncoding("utf-8");

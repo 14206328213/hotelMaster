@@ -157,9 +157,9 @@
                     <td><button onclick="pay(<%=order.getoNo()%>)" class="btn btn-primary">付清</button></td>
                 </tr>
             <%
+                            }
                         }
-                }
-                }
+                    }
                 }
             %>
             </tbody>
@@ -212,5 +212,4 @@
 </div>
 
 </body>
-<script type="text/javascript" src="../js/time.js"></script>
 </html>

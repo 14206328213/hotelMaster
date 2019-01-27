@@ -24,7 +24,6 @@ public class UserDao {
                 "where uID=? and password=?";
         return jdbcTemplate.queryForObject(sql,new Object[]{uid,password},
                 Integer.class);
-
     }
 
     public Customer findCusByUID(String uID){

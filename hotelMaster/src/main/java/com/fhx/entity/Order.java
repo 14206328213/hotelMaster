@@ -9,6 +9,8 @@ public class Order {
     int Otype;
     Date Otime;
     int day;
+
+
     //总价
     float total;
     float bargin;

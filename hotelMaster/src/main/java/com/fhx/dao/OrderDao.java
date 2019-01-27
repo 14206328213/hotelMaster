@@ -41,7 +41,6 @@ public class OrderDao {
                         itemUsing.setUnit(resultSet.getString("unit"));
                         itemUsing.setIecost(resultSet.getFloat("iecost"));
                         itemUsing.setIeday(resultSet.getInt("ieday"));
-//                        itemUsing.setIeTime(resultSet.getTimestamp("ieTime"));
                         return itemUsing;
                     }
                 });
