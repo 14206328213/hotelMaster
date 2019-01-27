@@ -12,7 +12,7 @@ springmvc+maven+mysql
 
 ##### 登录界面
 
-![](C:\Users\FHX\Desktop\数据课课设\登录界面.png)
+![](img-folder\登录界面.png)
 
 
 
@@ -20,19 +20,19 @@ springmvc+maven+mysql
 
 1.查看房间，操作房间状态
 
-![](C:\Users\FHX\Desktop\数据课课设\查看房间.png)
+![](img-folder\查看房间.png)
 
 2.添加物品
 
-![](C:\Users\FHX\Desktop\数据课课设\添加物品.png)
+![](img-folder\添加物品.png)
 
 3.添加用户
 
-![](C:\Users\FHX\Desktop\数据课课设\添加客户.png)
+![](img-folder\添加客户.png)
 
 4.添加员工
 
-![](C:\Users\FHX\Desktop\数据课课设\添加员工.png)
+![](img-folder\添加员工.png)
 
 
 
@@ -42,13 +42,13 @@ springmvc+maven+mysql
 
 1.预订房间
 
-![](C:\Users\FHX\Desktop\数据课课设\Inked用户预定房间_LI.jpg)
+![](img-folder\用户预定房间.jpg)
 
 
 
 2.归还客房物品
 
-![](C:\Users\FHX\Desktop\数据课课设\归还物品.png)
+![](img-folder\归还物品.png)
 
 
 
@@ -62,9 +62,11 @@ maven 1.7
 
 tomcat 8.0
 
-前端布局:
+##### 前端布局:
 
 bootstrap 3
+
+
 
 
 
